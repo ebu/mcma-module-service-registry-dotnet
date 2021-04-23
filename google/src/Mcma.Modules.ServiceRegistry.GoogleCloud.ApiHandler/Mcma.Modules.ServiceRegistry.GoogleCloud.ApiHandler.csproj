@@ -4,7 +4,7 @@
     <RootNamespace>Mcma.GoogleCloud.ServiceRegistry.ApiHandler</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Mcma.GoogleCloud.Functions.ApiHandler" Version="0.14.0-rc21" />
+    <PackageReference Include="Mcma.GoogleCloud.Functions.ApiHandler" Version="0.14.0" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="dist\**" />
