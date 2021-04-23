@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <OutputPath>dist\staging</OutputPath>
+        <PublishDir>dist\staging</PublishDir>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+        <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+        <RootNamespace>Mcma.Aws.ServiceRegistry.ApiHandler</RootNamespace>
+    </PropertyGroup>
+    
+    <ItemGroup>
+        <PackageReference Include="Mcma.Aws.Functions.ApiHandler" Version="0.14.0-rc21" />
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Remove="dist\**" />
+    </ItemGroup>
+    <ItemGroup>
+        <EmbeddedResource Remove="dist\**" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Remove="dist\**" />
+    </ItemGroup>
+</Project>
