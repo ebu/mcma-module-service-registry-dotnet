@@ -1,0 +1,12 @@
+{{ $labelData := dict "serviceName" .Values.serviceName "serviceFunction" "api-handler" }}
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ .Values.serviceName | quote }}
+spec:
+  selector:
+  {{- include "mcma.labels" $labelData | indent 4 }}
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80

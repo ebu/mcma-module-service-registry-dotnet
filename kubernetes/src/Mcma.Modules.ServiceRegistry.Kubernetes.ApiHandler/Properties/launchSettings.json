@@ -1,0 +1,42 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:48954",
+      "sslPort": 44326
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+
+        "MCMA_LOGGER_SOURCE": "service-registry",
+        "MCMA_PUBLIC_URL": "http://localhost/mcma/api",
+        "MCMA_SERVICES_URL": "http://localhost/mcma/api/services",
+        "MCMA_MONGODB_CONNECTION_STRING": "mongodb://localhost:27017",
+        "MCMA_MONGODB_DATABASE_NAME": "mcma",
+        "MCMA_MONGODB_COLLECTION_NAME": "service-registry"
+      }
+    },
+    "Mcma.Modules.ServiceRegistry.Kubernetes.ApiHandler": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "mcma/api/services",
+      "applicationUrl": "http://localhost:36361",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        
+        "MCMA_LOGGER_SOURCE": "service-registry",
+        "MCMA_PUBLIC_URL": "http://localhost/mcma/api",
+        "MCMA_SERVICES_URL": "http://localhost/mcma/api/services",
+        "MCMA_MONGODB_CONNECTION_STRING": "mongodb://localhost:27017",
+        "MCMA_MONGODB_DATABASE_NAME": "mcma",
+        "MCMA_MONGODB_COLLECTION_NAME": "service-registry"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "files": [
+    "**/*.tf",
+    "helm/**/*.*"
+  ],
+  "functions": [
+    {
+      "name": "ApiHandler",
+      "type": "DockerImage",
+      "path": "src/Mcma.Modules.ServiceRegistry.Kubernetes.ApiHandler",
+      "properties": {
+        "dockerImageId": "evanverneyfink/mcma-service-registry-api"
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "namespace": "ebu",
+  "name": "service-registry",
+  "displayName": "Service Registry",
+  "description": "The Service Registry serves as a central 'yellow pages' for services to discover other available services in the MCMA environment."
+}

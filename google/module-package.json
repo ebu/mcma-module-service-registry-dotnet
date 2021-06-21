@@ -1,0 +1,12 @@
+{
+  "files": [
+    "**/*.tf"
+  ],
+  "functions": [
+    {
+      "name": "ApiHandler",
+      "type": "GoogleCloudFunction",
+      "path": "src/Mcma.Modules.ServiceRegistry.GoogleCloud.ApiHandler"
+    }
+  ]
+}

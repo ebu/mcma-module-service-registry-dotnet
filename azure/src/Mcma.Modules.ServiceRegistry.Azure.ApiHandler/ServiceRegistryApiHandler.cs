@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
-using Mcma.Azure.FunctionsApi;
+using Mcma.Api.Azure.FunctionApp;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Azure.WebJobs;

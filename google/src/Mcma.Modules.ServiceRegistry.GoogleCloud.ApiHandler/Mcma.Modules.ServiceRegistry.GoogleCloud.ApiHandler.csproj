@@ -2,9 +2,10 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>Mcma.GoogleCloud.ServiceRegistry.ApiHandler</RootNamespace>
+    <Version>0.3.0</Version>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Mcma.GoogleCloud.Functions.ApiHandler" Version="0.14.0" />
+    <PackageReference Include="Mcma.Functions.Google.ApiHandler" Version="0.15.0" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="dist\**" />

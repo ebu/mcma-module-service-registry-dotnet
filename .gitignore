@@ -5,3 +5,5 @@ dist
 .terraform
 .publish
 log*.txt
+local.settings.json
+dotnet-tools.json

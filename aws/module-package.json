@@ -1,5 +1,12 @@
 {
-  "functions": {
-    "api-handler": "src/Mcma.Modules.ServiceRegistry.Aws.ApiHandler"
-  }
+  "files": [
+    "**/*.tf"
+  ],
+  "functions": [
+    {
+      "name": "ApiHandler",
+      "type": "AwsLambdaFunction",
+      "path": "src/Mcma.Modules.ServiceRegistry.Aws.ApiHandler"
+    }
+  ]
 }

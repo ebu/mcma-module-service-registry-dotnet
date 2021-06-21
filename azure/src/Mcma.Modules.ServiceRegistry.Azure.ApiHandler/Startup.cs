@@ -1,6 +1,7 @@
-﻿using Mcma.Api.Routing.Defaults.Routes;
-using Mcma.Azure.Functions.ApiHandler;
+﻿using Mcma.Api.Routing.Defaults;
 using Mcma.Azure.ServiceRegistry.ApiHandler;
+using Mcma.Functions.Azure.ApiHandler;
+using Mcma.Model;
 using Microsoft.Azure.Functions.Extensions.DependencyInjection;
 
 [assembly: FunctionsStartup(typeof(Startup))]

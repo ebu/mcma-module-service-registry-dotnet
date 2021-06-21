@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Google.Cloud.Functions.Framework;
 using Google.Cloud.Functions.Hosting;
-using Mcma.GoogleCloud.HttpFunctionsApi;
+using Mcma.Api.Google.CloudFunctions;
 using Microsoft.AspNetCore.Http;
 
 namespace Mcma.GoogleCloud.ServiceRegistry.ApiHandler

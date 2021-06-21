@@ -1,6 +1,7 @@
-﻿using Mcma.Api;
-using Mcma.Api.Routing.Defaults.Routes;
-using Mcma.GoogleCloud.Functions.ApiHandler;
+﻿using Mcma.Api.Http;
+using Mcma.Api.Routing.Defaults;
+using Mcma.Functions.Google.ApiHandler;
+using Mcma.Model;
 
 namespace Mcma.GoogleCloud.ServiceRegistry.ApiHandler
 {

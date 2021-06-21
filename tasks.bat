@@ -1,1 +1,0 @@
-dotnet script tasks.csx -- %*

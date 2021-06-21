@@ -15,9 +15,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "azure", "azure", "{B3DE617C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "google", "google", "{CC2DC5BD-62D3-485F-98E4-924E6C16A73C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "generic", "generic", "{AAF14A5E-B867-4662-A175-B4F470FF65A2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "kubernetes", "kubernetes", "{AAF14A5E-B867-4662-A175-B4F470FF65A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mcma.Modules.ServiceRegistry.Generic.ApiHandler", "generic\src\Mcma.Modules.ServiceRegistry.Generic.ApiHandler\Mcma.Modules.ServiceRegistry.Generic.ApiHandler.csproj", "{EDE8CEB6-3F4F-4C27-99DA-7C98565B9E8C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mcma.Modules.ServiceRegistry.Kubernetes.ApiHandler", "kubernetes\src\Mcma.Modules.ServiceRegistry.Kubernetes.ApiHandler\Mcma.Modules.ServiceRegistry.Kubernetes.ApiHandler.csproj", "{EDE8CEB6-3F4F-4C27-99DA-7C98565B9E8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,10 @@
+namespace: default
+serviceName: service-registry
+version: "@@Version@@"
+mongoDb:
+  connectionString: "mongodb://mongo1,mongo2"
+  databaseName: "mcma"
+  collectionName: "service-registry"
+apiHandler:
+  dockerImageId: "evanverneyfink/mcma-service-registry-api"
+  numReplicas: 1

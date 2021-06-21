@@ -1,0 +1,4 @@
+{{ $function := "api-handler" }}
+{{ $functionConfig := .Values.apiHandler }}
+{{ $data := dict "serviceName" .Values.serviceName "serviceFunction" $function "functionConfig" $functionConfig "version" .Values.version }}
+{{- template "mcma.deployment" $data }}

@@ -1,5 +1,12 @@
 {
-  "functions": {
-    "api-handler": "src/Mcma.Modules.ServiceRegistry.Azure.ApiHandler"
-  }
+  "files": [
+    "**/*.tf"
+  ],
+  "functions": [
+    {
+      "name": "ApiHandler",
+      "type": "AzureFunctionApp",
+      "path": "src/Mcma.Modules.ServiceRegistry.Azure.ApiHandler"
+    }
+  ]
 }

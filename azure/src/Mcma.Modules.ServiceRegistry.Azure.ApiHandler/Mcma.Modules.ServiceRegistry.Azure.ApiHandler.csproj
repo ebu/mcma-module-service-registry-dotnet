@@ -6,9 +6,10 @@
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
     <RootNamespace>Mcma.Azure.ServiceRegistry.ApiHandler</RootNamespace>
+    <Version>0.3.0</Version>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Mcma.Azure.Functions.ApiHandler" Version="0.14.0" />
+    <PackageReference Include="Mcma.Functions.Azure.ApiHandler" Version="0.15.0" />
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="3.0.9" />
     <PackageReference Include="Microsoft.Azure.Functions.Extensions" Version="1.1.0" />
   </ItemGroup>
